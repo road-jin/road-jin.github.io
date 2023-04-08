@@ -21,9 +21,17 @@ type: article
     {%- include article-footer.html -%}
     {%- include article-section-navigator.html -%}
   </div>
-
+  <div id="gitalk-container"></div>
 </div>
 
 <script>
   {%- include scripts/article.js -%}
+</script>
+
+<script src="https://utteranc.es/client.js"
+        repo="road-jin/road-jin.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
 </script>
