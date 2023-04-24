@@ -54,12 +54,12 @@ public class MemberManager {
 MemberManager라는 클래스가 있습니다.  
 해당 클래스의 함수들의 액터를 정의해 봅시다.
 
-**save, findByid**
+**save, findByid**   
 회원을 저장하고, 조회하는 행동을 합니다.  
 회원의 데이터를 어디에 관리할지에 따라 매번 변경되어야 합니다.  
 그러므로 회원의 데이터를 관리하는 사람이 엑터로 정의됩니다.
 
-**calculateMembershipPoint**
+**calculateMembershipPoint**    
 회원의 멤버쉽 포인트를 계산하는 행동을 합니다.  
 멤버쉽 포인트를 계산하는 방식이 바뀔 때 마다 변경되어야 합니다.  
 그러므로 멤버쉽 포인트를 기획하는 사람이 엑터로 정의됩니다.
@@ -105,10 +105,8 @@ public class MemberShipService {
 
 ## Reference
 
-http://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html    
-https://sihyung92.oopy.io/oop/solid   
-https://steady-coding.tistory.com/370    
-https://jaeseongdev.github.io/development/2021/02/14/%EB%8B%A8%EC%9D%BC_%EC%B1%85%EC%9E%84_%EC%9B%90%EC%B9%99_SRP    
-https://www.youtube.com/watch?v=AdANHDp5dTM&t=103    
-https://www.youtube.com/watch?v=AdANHDp5dTM&t=670s
-
+[The Single Responsibility Principle](http://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)      
+[SOLID 원칙 / SOLID는 구식인가?](https://sihyung92.oopy.io/oop/solid)   
+[[SOLID] 단일 책임 원칙(SRP)이란?](https://steady-coding.tistory.com/370)    
+[단일 책임 원칙(SRP)](https://jaeseongdev.github.io/development/2021/02/14/%EB%8B%A8%EC%9D%BC_%EC%B1%85%EC%9E%84_%EC%9B%90%EC%B9%99_SRP)       
+[클린 코더스 강의 13. SRP(Single Responsibility Principle)](https://www.youtube.com/watch?v=AdANHDp5dTM&t=103)
